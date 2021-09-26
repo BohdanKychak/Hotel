@@ -1,4 +1,4 @@
-package com.devcolibri.servlet;
+package com.hotel;
 
 
 import java.io.*;
@@ -12,8 +12,8 @@ public class MainServlet extends HttpServlet {
     public void doGet(HttpServletRequest req,
                       HttpServletResponse res)
             throws ServletException, IOException {
+        Main.DBConnection();
         PrintWriter out = res.getWriter();
-
         out.println("Hello, world!");
         out.close();
     }
