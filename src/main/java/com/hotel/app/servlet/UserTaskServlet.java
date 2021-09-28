@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("/userTask")
+@WebServlet("/userMenu")
 public class UserTaskServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
@@ -23,7 +23,7 @@ public class UserTaskServlet extends HttpServlet {
 
         RequestDispatcher dispatcher //
                 = this.getServletContext()//
-                .getRequestDispatcher("/WEB-INF/views/userTaskView.jsp");
+                .getRequestDispatcher("/WEB-INF/views/userMenuView.jsp");
 
         dispatcher.forward(request, response);
     }

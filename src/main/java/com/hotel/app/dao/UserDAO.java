@@ -6,7 +6,7 @@ import java.util.Map;
 import com.hotel.app.config.SecurityConfig;
 import com.hotel.app.bean.UserAccount;
 
-public class DataDAO {
+public class UserDAO {
 
     private static final Map<String, UserAccount> mapUsers = new HashMap<String, UserAccount>();
 

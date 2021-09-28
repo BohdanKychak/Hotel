@@ -21,7 +21,7 @@ public class RoomDAO {
         Statement statement;
         ResultSet resultSet;
         Connection connection = dbManager.getConnection();
-        ;
+        // toDo position and limit
         String sql;
         try {
             sql = "select * from room where hotelId='1' ";

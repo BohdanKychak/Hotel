@@ -4,6 +4,8 @@ pageEncoding="UTF-8"%>
 
 <form name="room">
 
+    <jsp:include page="menu1.jsp"></jsp:include>
+
      <TABLE BORDER="1">
         <TR>
             <TH>id</TH>
@@ -11,24 +13,21 @@ pageEncoding="UTF-8"%>
             <TH>capacity</TH>
             <TH>price</TH>
             <TH>status</TH>
-            <TH>hotelId</TH>
         </TR>
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <c:if test="${not empty list}">
-    <table>
+    <Е>
         <c:forEach items="${list}" var="record">
             <tr>
-
                 <td>${record.id}</td>
                 <td>${record.roomClass}</td>
                 <td>${record.capacity}</td>
                 <td>${record.price}</td>
                 <td>${record.status}</td>
-                <td>${record.hotelId}</td>
             </tr>
         </c:forEach>
-    </table>
+     </TABLE>
 </c:if>
 
  </form>

@@ -2,15 +2,15 @@
 <html>
    <head>
       <meta charset="UTF-8">
-      <title>Access Denied</title>
+      <title>User Menu</title>
    </head>
    <body>
 
       <jsp:include page="menu2.jsp"></jsp:include>
 
-      <br/><br/>
+      <h3>User Menu</h3>
 
-      <h3 style="color:red;">Access Denied!</h3>
+      Hello, user. You can find information about rooms in our hotel in the "rooms" tab!
 
    </body>
 </html>

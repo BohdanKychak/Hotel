@@ -1,9 +1,9 @@
-<a href="${pageContext.request.contextPath}/userTask">
-  User Task
+<a href="${pageContext.request.contextPath}/userMenu">
+  User Menu
 </a>
 ||
-<a href="${pageContext.request.contextPath}/adminTask">
-  Admin Task
+<a href="${pageContext.request.contextPath}/adminMenu">
+  Admin Menu
 </a>
 ||
 <a href="${pageContext.request.contextPath}/userInfo">
@@ -11,11 +11,7 @@
 </a>
 ||
 <a href="${pageContext.request.contextPath}/room">
-  Room
-</a>
-||
-<a href="${pageContext.request.contextPath}/login">
-  Login
+  Rooms
 </a>
 ||
 <a href="${pageContext.request.contextPath}/logout">

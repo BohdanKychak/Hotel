@@ -18,7 +18,8 @@ public class RoomServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+        // toDo add position and limit
+        String pageNumber = request.getParameter("pageNumber");
         RoomDAO roomDAO = new RoomDAO();
         List<Room> list = roomDAO.getRooms();
 
